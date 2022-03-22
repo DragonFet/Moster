@@ -1,0 +1,21 @@
+Level=["Level 1","Level 2","Level 3"]
+property=["HP",3,"Damage",6,"EXP border",100]
+
+
+
+for i in Level:
+    if i==Level[0]:
+        print("Ogr")
+        print(i)
+        print("HP",property[2])
+        print("Damage",property[3])
+        print("EXP border",property[5])
+    else:
+        print("Ogr")
+        print(i)
+        property[1]+=2
+        property[3]+=4
+        property[5]+=100
+        print("HP", property[2])
+        print("Damage", property[3])
+        print("EXP border", property[5])
