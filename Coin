@@ -1,0 +1,5 @@
+x=int(input("Please input value day in moth"))
+hours=0
+for i in range(0,x):
+    hours+=5
+print("Value coin is:",hours*3)
